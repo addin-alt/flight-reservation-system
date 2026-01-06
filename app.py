@@ -8,10 +8,10 @@ BG = "#B1E8F4"
 CARD = "#000000"
 TEXT = "#000000"
 INPUT_BG = "#000000"
-PRIMARY = "#4E9F3D"
-PRIMARY_H = "#3E7F2D"
+PRIMARY = "#060A5D"
+PRIMARY_H = "#D6A914"
 DANGER = "#D7263D"
-SUCCESS = "#00A8CC"
+SUCCESS = "#02647A"
 
 FONT_MAIN = ("Times New Roman", 14)
 FONT_HEADER = ("Times New Roman", 20, "bold")
@@ -33,7 +33,7 @@ class HoverButton(tk.Label):
 class App(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.title("IUBAT Flight Reservation System")
+        self.title("IUBAT Flight Reservation System- by team Megas")
         self.geometry("1000x750")
         self.configure(bg=BG)
         self.user = None
